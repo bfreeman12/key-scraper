@@ -1,0 +1,47 @@
+body {
+  width: 250px;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#game-keys {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow: auto;
+  max-height: 300px;
+}
+
+#game-keys ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  border-bottom: solid 1px black;
+}
+
+#game-keys ul li {
+  margin-bottom: 5px;
+}
+
+button {
+  width: 100%;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#copy-buttons {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
